@@ -14,7 +14,7 @@ with tabs[0]:
     st.title("Data loading")
 
     # Load all sheets
-    xls = pd.ExcelFile("U:\\benchmatrix internship\\data cleaned.xlsx")
+    xls = pd.ExcelFile("data cleaned.xlsx")
     df1 = pd.read_excel(xls, sheet_name=0, engine='openpyxl')
     df2 = pd.read_excel(xls, sheet_name=1, engine='openpyxl')
     df3 = pd.read_excel(xls, sheet_name=2, engine='openpyxl')
